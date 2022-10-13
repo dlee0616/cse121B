@@ -4,7 +4,8 @@
 
 // Step 1: Using function declaration, define a function named add that takes two arguments, number1 and number2
 function add(number1, number2){
-  return number1 + number2;
+    let sum = number1 + number2;
+    return sum;
     
 }
 // Step 2: In the function, return the sum of the parameters number1 and number2
