@@ -5,12 +5,12 @@
 // Step 1: Declare and initialize a new variable to hold the current date
 let currentDate = new Date();
 // Step 2: Declare another variable to hold the day of the week
-let day = currenDate.getDay();
+let day = currentDate.getDay();
 // Step 3: Using the variable declared in Step 1, assign the value of the variable declared in Step 2 to the day of the week ( hint: getDay() 
 // Step 4: Declare a variable to hold a message that will be displayed
-let msg="";
+let msg ="";
 // Step 5: Using an if statement, if the day of the week is a weekday (i.e. Monday - Friday), set the message variable to the string 'Hang in there!'
-if  (currentDate === 0 || currentDate === 6){
+if  (day === 0 || day === 6){
     msg = ("woohoo! It's the weekend")
 }
 else {
